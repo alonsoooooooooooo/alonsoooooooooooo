@@ -1,65 +1,74 @@
-## Sociedad Mercantil
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor con Nombre Aylen</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
 
-<ul>
-  <li><strong>Posibles situaciones en una sociedad mercantil</strong>
-    <ul>
-      <li><strong>Conflictos entre socios</strong>
-        <ul>
-          <li>Discrepancias sobre la toma de decisiones.</li>
-          <li>Diferencias en la distribución de utilidades.</li>
-          <li>Disolución de la sociedad por conflictos insalvables.</li>
-        </ul>
-      </li>
-      <li><strong>Cambios en la estructura de capital</strong>
-        <ul>
-          <li>Ingreso de nuevos socios o salida de socios actuales.</li>
-          <li>Aportación de capital por parte de terceros.</li>
-          <li>Modificación en la participación accionaria.</li>
-        </ul>
-      </li>
-      <li><strong>Fusión o adquisición</strong>
-        <ul>
-          <li>Unión con otra sociedad mercantil para consolidar operaciones.</li>
-          <li>Adquisición por parte de una empresa más grande.</li>
-          <li>Integración de recursos y obligaciones.</li>
-        </ul>
-      </li>
-      <li><strong>Liquidación de la sociedad</strong>
-        <ul>
-          <li>Cierre definitivo de las actividades mercantiles.</li>
-          <li>Distribución de los activos entre los socios.</li>
-          <li>Pago de deudas y obligaciones antes de la disolución.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+        .flower {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
 
-  <li><strong>Criterios para el desarrollo de la actividad</strong>
-    <ul>
-      <li><strong>Estudio del marco legal</strong>
-        <ul>
-          <li>Revisión de la Ley General de Sociedades Mercantiles.</li>
-          <li>Comprensión de los derechos y obligaciones de los socios.</li>
-        </ul>
-      </li>
-      <li><strong>Revisión de los estatutos sociales</strong>
-        <ul>
-          <li>Análisis del documento constitutivo de la sociedad.</li>
-          <li>Identificación de las reglas internas para la toma de decisiones y distribución de utilidades.</li>
-        </ul>
-      </li>
-      <li><strong>Evaluación de riesgos financieros</strong>
-        <ul>
-          <li>Análisis de la solvencia de la empresa.</li>
-          <li>Evaluación de posibles deudas y obligaciones.</li>
-        </ul>
-      </li>
-      <li><strong>Planificación de soluciones jurídicas</strong>
-        <ul>
-          <li>Prevención de conflictos mediante acuerdos previos.</li>
-          <li>Planificación de estrategias en caso de disolución o fusión.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+        .petal {
+            width: 80px;
+            height: 120px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            transform-origin: bottom center;
+        }
+
+        .petal:nth-child(1) { transform: rotate(0deg); }
+        .petal:nth-child(2) { transform: rotate(45deg); }
+        .petal:nth-child(3) { transform: rotate(90deg); }
+        .petal:nth-child(4) { transform: rotate(135deg); }
+        .petal:nth-child(5) { transform: rotate(180deg); }
+        .petal:nth-child(6) { transform: rotate(225deg); }
+        .petal:nth-child(7) { transform: rotate(270deg); }
+        .petal:nth-child(8) { transform: rotate(315deg); }
+
+        .center {
+            width: 80px;
+            height: 80px;
+            background-color: #ffda00;
+            border-radius: 50%;
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="flower">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center">Aylen</div>
+    </div>
+</body>
+</html>
